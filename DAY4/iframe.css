@@ -1,0 +1,23 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+}
+.img{
+    background-image: url('../DAY4/image/img1.avif');
+    background-size: cover;
+   height: 600px;
+   width: 600px;
+    align-items: center;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.img:hover{
+    background-image: url('../DAY4/image/img2.jpeg');
+}
