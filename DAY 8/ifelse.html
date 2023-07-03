@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=, initial-scale=1.0">
+  <title>ifelse</title>
+</head>
+
+<style>
+
+.hello{
+  
+  text-align: center;
+  justify-content: center;
+  margin-top: 25%;
+
+
+}
+</style>
+<body>
+<div class="hello">
+  <p>Number is:</p><input type="text" id="mytext" value="">
+  
+
+ <br><br> <button onclick="myfunction()">submit</button>
+
+<p id="demo"></p>
+ 
+</div>
+
+ <script> 
+function myfunction(){
+   var x= document.getElementById("mytext").value;
+
+   if (x<0)
+   {
+      document.getElementById("demo").innerHTML="negative";
+   }
+
+   else if ( x>0)
+   {
+    document.getElementById("demo").innerHTML="positive";
+   }
+   else if ( x==0)
+   {
+    document.getElementById("demo").innerHTML="equal";
+   }
+
+
+}
+
+</script>
+
+
+</body>
+</html>
