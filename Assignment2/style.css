@@ -1,0 +1,66 @@
+body{
+  background-color:rgb(51, 53, 54);
+}
+
+
+
+.container {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 3px 5px 5px 5px;
+    position: relative;
+    top: 50px;
+    border-radius: 25px;
+  
+    }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 80%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .form-group{
+
+    text-align: center;
+
+  }
+  button[type="submit"] {
+    display:flex;
+    position: relative;
+    margin-left: 35%;
+    text-align: center;
+    width: 30%;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  /* emojicss */
+ 
